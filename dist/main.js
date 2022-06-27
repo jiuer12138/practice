@@ -9,6 +9,59 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/banner.js":
+/*!***********************!*\
+  !*** ./src/banner.js ***!
+  \***********************/
+/***/ (() => {
+
+eval("// 轮播图逻辑\nconsole.log('实现轮播图的业务逻辑');\n\n//# sourceURL=webpack://practice/./src/banner.js?");
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.js */ \"./src/banner.js\");\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_banner_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.js */ \"./src/tabs.js\");\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tabs_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/index.css */ \"./src/style/index.css\");\n/* harmony import */ var _assets_fonts_iconfont_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/fonts/iconfont.css */ \"./src/assets/fonts/iconfont.css\");\n/* harmony import */ var _style_index_less__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style/index.less */ \"./src/style/index.less\");\n/* harmony import */ var _assets_22_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/22.png */ \"./src/assets/22.png\");\n/* harmony import */ var _assets_33_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/33.png */ \"./src/assets/33.png\");\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\n\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\n // 引入字体图标文件\n\n // import $ from 'jquery'\n// $('#swiper').css('background-color', 'red')\n\n\n\nvar img = document.createElement('img');\nimg.src = _assets_22_png__WEBPACK_IMPORTED_MODULE_5__;\ndocument.body.appendChild(img); // 引入图片-使用\n\n\nvar theImg = document.createElement('img');\ntheImg.src = _assets_33_png__WEBPACK_IMPORTED_MODULE_6__;\ndocument.body.appendChild(theImg);\n\nvar App = /*#__PURE__*/_createClass(function App() {\n  _classCallCheck(this, App);\n});\n\n_defineProperty(App, \"a\", 123);\n\nconsole.log(App.a);\n\nvar fn = function fn() {\n  console.log('sunshine');\n};\n\nfn();\n\n//# sourceURL=webpack://practice/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/tabs.js":
+/*!*********************!*\
+  !*** ./src/tabs.js ***!
+  \*********************/
+/***/ (() => {
+
+eval("// tab栏切换的逻辑\nconsole.log('实现tabs标签页的逻辑');\n\n//# sourceURL=webpack://practice/./src/tabs.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/style/index.less":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/style/index.less ***!
+  \***********************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/33.png */ \"./src/assets/33.png\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"#swiper {\\n  width: 800px;\\n  height: 100px;\\n  background-color: hotpink;\\n  color: '#000';\\n}\\nbody {\\n  background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") no-repeat center;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://practice/./src/style/index.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/assets/fonts/iconfont.css":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/assets/fonts/iconfont.css ***!
+  \*****************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! iconfont.eot?t=1609808378351 */ \"./src/assets/fonts/iconfont.eot?t=1609808378351\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA== */ \"data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA==\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! iconfont.woff?t=1609808378351 */ \"./src/assets/fonts/iconfont.woff?t=1609808378351\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! iconfont.ttf?t=1609808378351 */ \"./src/assets/fonts/iconfont.ttf?t=1609808378351\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! iconfont.svg?t=1609808378351 */ \"./src/assets/fonts/iconfont.svg?t=1609808378351\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___, { hash: \"#iefix\" });\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___, { hash: \"#iconfont\" });\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {font-family: \\\"iconfont\\\";\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \"); /* IE9 */\\n  src: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \") format('embedded-opentype'), /* IE6-IE8 */\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \") format('woff2'),\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \") format('woff'),\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_4___ + \") format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */\\n  url(\" + ___CSS_LOADER_URL_REPLACEMENT_5___ + \") format('svg'); /* iOS 4.1- */\\n}\\n\\n.iconfont {\\n  font-family: \\\"iconfont\\\" !important;\\n  font-size: 16px;\\n  font-style: normal;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale;\\n}\\n\\n.icon-qq:before {\\n  content: \\\"\\\\e64e\\\";\\n}\\n\\n.icon-weixin:before {\\n  content: \\\"\\\\e615\\\";\\n}\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://practice/./src/assets/fonts/iconfont.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style/index.css":
 /*!*******************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/style/index.css ***!
@@ -16,7 +69,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"#swiper { \\r\\n    width: 800px;\\r\\n    height: 100px; \\r\\n    background-color: hotpink; \\r\\n    color: '#000'\\r\\n  }\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://practice/./src/style/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"#swiper { \\r\\n    width: 800px;\\r\\n    height: 100px; \\r\\n    background-color: hotpink; \\r\\n    color: '#000'\\r\\n  }\\r\\n  /* body{\\r\\n    background: url(\\\"../assets/11.png\\\") no-repeat center;\\r\\n  } */\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://practice/./src/style/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -31,6 +84,17 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+"use strict";
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  }\n\n  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://practice/./node_modules/css-loader/dist/runtime/getUrl.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
 /*!**************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
@@ -39,6 +103,28 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 "use strict";
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://practice/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/style/index.less":
+/*!******************************!*\
+  !*** ./src/style/index.less ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_less_loader_dist_cjs_js_index_less__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/less-loader/dist/cjs.js!./index.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/style/index.less\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_less_loader_dist_cjs_js_index_less__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_less_loader_dist_cjs_js_index_less__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_node_modules_less_loader_dist_cjs_js_index_less__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_less_loader_dist_cjs_js_index_less__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://practice/./src/style/index.less?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/iconfont.css":
+/*!***************************************!*\
+  !*** ./src/assets/fonts/iconfont.css ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_iconfont_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!./iconfont.css */ \"./node_modules/css-loader/dist/cjs.js!./src/assets/fonts/iconfont.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_iconfont_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_iconfont_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_iconfont_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_iconfont_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://practice/./src/assets/fonts/iconfont.css?");
 
 /***/ }),
 
@@ -119,34 +205,80 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
-/***/ "./src/banner.js":
-/*!***********************!*\
-  !*** ./src/banner.js ***!
-  \***********************/
-/***/ (() => {
-
-eval("// 轮播图逻辑\r\nconsole.log('实现轮播图的业务逻辑')\n\n//# sourceURL=webpack://practice/./src/banner.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA==":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA== ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./banner.js */ \"./src/banner.js\");\n/* harmony import */ var _banner_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_banner_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabs.js */ \"./src/tabs.js\");\n/* harmony import */ var _tabs_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_tabs_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _style_index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style/index.css */ \"./src/style/index.css\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './styles/index.less'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\r\n\r\n\r\n// import $ from 'jquery'\r\n// $('#swiper').css('background-color', 'red')\r\n\r\n\n\n//# sourceURL=webpack://practice/./src/index.js?");
+eval("module.exports = \"data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA==\";\n\n//# sourceURL=webpack://practice/data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARIAAsAAAAACEQAAAP7AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqELINlATYCJAMMCwgABCAFhG0HNRsqBxEVnAnJvoScbC4Rd3BOtcW542W9hTVrUov1/2X4oxQkQAQkAAAAAEA8/Df27b6ZWdUmZs1PF00LdK8QypIgFEL25qV7MmnQ/tFa2+MOEV+SuKf39D57ZnsvDe1kQiHSCZ1K+4+4DOphOli4SGcdfuGCdXLfNbnFR0ggzDizXLLcreCttiB4SijRR4wTCZInbn47iDCptQYl92UkJ/HB5fRX4vOAcpl7YIBxQIGNMTmhtEAC1Jgbxi5oiecJ1OvVh9nVMbICBQpzWiCu+vu6g4KMRmnID7VCdcXaIu4DW226y13AveDz8QMsRgFJVWbO3SPaXmDphvraMPc/jZOnQ/N0JrBNZExDCnFeaTlDbBSZxqpXJVxzerUipKn8/5+Ao4mqrT88kiCqmZJGRBqPJj5Xh5NIDfKumvtwk6tRi4cA+CspOoe+WvXMGC1+YVtR0R140bCEGoii1qNJq+Xb251lp1GeU9aXo7Pdw7SlszLTqL/8bLH6yo/ED2HtKWoLexhrutLg9NRk+Sp6AP3aEK2vmN4+ez7CWtNWRU9fhvoq0IWaS9/paSOSLOQ+Y/SAB0Kvle3YWnFh1iMo6ivsSuss6E7vsXKXbSjC25R1bHRa2xyg0ToVbZuiIIx+M3tL2kfnbdZSKbw99ohlyXIOd1aE+adPp6M2w1dmv3/3Ch4cuBtvG5hvBXNIYXIQB6bXJytOPymNHklQGZnHWDEM+4Trx//rHCg2SKfVVtjqrvbeUB2fqkK/z9w/f5O5c0agSXrQSwJ/ky8jQDIUV8XhBwLPuCiQJm2r6AKp5G5vzoTBTryWKGdQiirOpSleW7ow0r1NKl7UcfyxAu/8/28w8/YQuODPfRvM+lBJcjxi72KEWkzIxPs2jnt0Bvt4bf/ygOxlsjpUi2KKHiYGiNbCLKZs4IYQKkGugt0PYlkO5MF//R3r3+6qK+ncN14U8E4vH+R3z1Irwbh/toFDVN44cb6pzUXhOBzDm11Bf8+UgCxuUEGOdtnhiq63Fwu1uhJIavRAVmsYLaRpqNJgGarV2gBovSmbmxt0sLCiFCImnQAIrS4gafYaslZXaCFloEq3Z6jWGizUO4nqPRuMhli0akGEQhxH01iM6Rqx9bQozHcB7ygRK80PyD6wbNGPhweG8vFN0MCaYoGd4EcoJZhYuoo3wGWgKDo2LF2CGB0QKDVmBgdJ1ZMGYrqKiuywgAgKxGFRaZgoRqchXneqqPB+F8BzKCKshrYqow+w2MT+sWEDhjqgmxKtU9utDLYl8EZQFMGTCItOhW1AE1CsiA4zqkdJQAw1QBgQMswYRJ1IV8nA8jL1/fZAPfOoHDkMy3Ao3TLzkiCmRA0hAA==?");
 
 /***/ }),
 
-/***/ "./src/tabs.js":
-/*!*********************!*\
-  !*** ./src/tabs.js ***!
-  \*********************/
-/***/ (() => {
+/***/ "./src/assets/fonts/iconfont.eot?t=1609808378351":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/iconfont.eot?t=1609808378351 ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// tab栏切换的逻辑\r\nconsole.log('实现tabs标签页的逻辑')\n\n//# sourceURL=webpack://practice/./src/tabs.js?");
+"use strict";
+eval("module.exports = __webpack_require__.p + \"font-iconfont.9471c4.eot\";\n\n//# sourceURL=webpack://practice/./src/assets/fonts/iconfont.eot?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/iconfont.svg?t=1609808378351":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/iconfont.svg?t=1609808378351 ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"font-iconfont.493628.svg\";\n\n//# sourceURL=webpack://practice/./src/assets/fonts/iconfont.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/iconfont.ttf?t=1609808378351":
+/*!*******************************************************!*\
+  !*** ./src/assets/fonts/iconfont.ttf?t=1609808378351 ***!
+  \*******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"font-iconfont.c4226d.ttf\";\n\n//# sourceURL=webpack://practice/./src/assets/fonts/iconfont.ttf?");
+
+/***/ }),
+
+/***/ "./src/assets/fonts/iconfont.woff?t=1609808378351":
+/*!********************************************************!*\
+  !*** ./src/assets/fonts/iconfont.woff?t=1609808378351 ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"font-iconfont.9cb43d.woff\";\n\n//# sourceURL=webpack://practice/./src/assets/fonts/iconfont.woff?");
+
+/***/ }),
+
+/***/ "./src/assets/22.png":
+/*!***************************!*\
+  !*** ./src/assets/22.png ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"6898681e8f6dcdaccb8a.png\";\n\n//# sourceURL=webpack://practice/./src/assets/22.png?");
+
+/***/ }),
+
+/***/ "./src/assets/33.png":
+/*!***************************!*\
+  !*** ./src/assets/33.png ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"63c9d19c8132211a2914.png\";\n\n//# sourceURL=webpack://practice/./src/assets/33.png?");
 
 /***/ })
 
@@ -176,6 +308,9 @@ eval("// tab栏切换的逻辑\r\nconsole.log('实现tabs标签页的逻辑')\n\
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -201,6 +336,18 @@ eval("// tab栏切换的逻辑\r\nconsole.log('实现tabs标签页的逻辑')\n\
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -215,6 +362,52 @@ eval("// tab栏切换的逻辑\r\nconsole.log('实现tabs标签页的逻辑')\n\
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

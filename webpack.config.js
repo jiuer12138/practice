@@ -69,6 +69,16 @@ module.exports = {
           filename: 'font-[name].[hash:6][ext]',
         },
       },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'], // 预设:转码规则(用babel开发环境本来预设的)
+          },
+        },
+      },
     ],
   },
 }
