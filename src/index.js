@@ -22,7 +22,9 @@ class App {
 
 console.log(App.a)
 
-const fn= ()=>{
-    console.log('sunshine');
+const fn = () => {
+  console.log('sunshine')
 }
 fn()
+
+import './App.vue'
